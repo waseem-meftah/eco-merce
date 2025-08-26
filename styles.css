@@ -1,0 +1,227 @@
+ul
+{
+    padding-top: 10px;
+}
+.head4
+{
+    color: white;
+    font-family: cursive;
+    font-size: 27px;
+}
+a
+{
+    font-family: cursive;
+}
+.hero4
+{
+    position: relative;
+}
+.hero4 .bg-img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    filter: brightness(0.4);
+}
+.hero .bg-img .img1
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hero4 .container
+{
+    padding: 250px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+h3
+{
+    font-family: cursive;
+    font-size: 23px;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+.hero4  .container .shop
+{
+    font-family: cursive;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #212529;
+}
+span:hover
+{
+    color: #fff;
+}
+.shop:hover
+{
+    background-color: #4b525a;
+    transition: .6s;
+    color: white;
+}
+.Product
+{
+    height: 900px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.Product .serach-btn
+{
+    padding-top: 3.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input[type="search"]
+{
+    width: 700px;
+    border-radius: 5px;
+    border: 0;
+    background-color: antiquewhite;
+    font-family: cursive;
+    text-transform: capitalize;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 40px;
+}
+.serach-btn .Product1
+{
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4b525a;
+    color: #fff;
+    margin-left: 10px;
+}
+.fa-ellipsis-vertical
+{
+    font-size: 20px;
+    
+}
+.Product .serach-btn .Horizntal
+{
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+}
+.Horizntal:hover
+{
+    background-color: #a1a1a1;
+    transition: .3s;
+}
+.card1
+{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+}
+.cards-img1
+{
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.671);
+    margin: 20px;
+    width: 350px;
+}
+.img2
+{
+    width: 100%;
+    height: 240px;
+}
+.content3
+{
+    padding: 27px;
+    background-color: white;
+    height: 30px;
+}
+.head55
+{
+    color: #212529;
+    font-family: "Geist", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 0.75rem;
+}
+.features33
+{
+    color: gray;
+    font-family: "Geist", sans-serif;
+    font-size: 18px;
+}
+.content3 .price
+{
+    display: flex;
+    gap: 15px;
+    padding-top: 0.80rem;
+}
+.blue
+{
+    font-family: "Geist", sans-serif;
+    font-size: 20px;
+}
+.content3 .price .light
+{
+    color: #4b525a;
+    text-decoration: line-through;
+    font-family: "Geist", sans-serif;
+    font-weight: light;
+    padding-top: 4px;
+    padding-bottom: 2rem;
+}
+.content3 .view
+{
+    width: 300px;
+    height: 35px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #4b525a;
+    color: white;
+    font-family: "Geist", sans-serif;
+    text-transform: capitalize;
+}
+.fava
+{
+    border: 0;
+    position: relative;
+    top: -42%;
+    left: 90%;
+    opacity: 0.7;
+    background-color: rgba(243, 236, 252, 0.286);
+    border-radius: 6px;
+    filter: blur(0.4);
+}
+.modifi
+{
+    border: none;
+    position: relative;
+    top: -42%;
+    left: 70%;
+    opacity: 0.7;
+    background-color: rgba(252, 236, 236, 0.485);
+    border-radius: 6px;
+    filter: blur(0.4);
+}
+.big-card
+{
+    display: flex;
+    justify-content: center;
+}
