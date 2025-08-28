@@ -58,8 +58,9 @@ h3
     border-radius: 5px;
     text-transform: capitalize;
     color: #212529;
+    outline: 0;
 }
-span:hover
+span.change:hover
 {
     color: #fff;
 }
@@ -224,4 +225,63 @@ input[type="search"]
 {
     display: flex;
     justify-content: center;
+}
+footer
+{
+    background-color: #212529;
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.shop23
+{
+    color: darkgrey;
+    font-family: cursive;
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+p
+{
+    color: white;
+    font-family: cursive;
+    text-transform: capitalize;
+    width: 250px;
+    line-height: 1.5;
+}
+.link
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.link .links
+{
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-bottom: 2rem;
+}
+.linker
+{
+    color: gainsboro;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.foot
+{
+    text-align: center;
+    color: #a1a1a1;
+    background-color: #4b525a;
+    height: 60px;
+}
+.foot .header5
+{
+    padding-top: 1rem;
+    color:gainsboro;
+    font-family: cursive;
+
 }
